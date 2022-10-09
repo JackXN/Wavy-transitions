@@ -1,7 +1,7 @@
 import { FC, MouseEvent, ReactNode } from "react";
 import { createRoot } from "react-dom/client";
 import { useNavigate } from "react-router-dom";
-
+import { WavyWaves } from "./WavyWaves";
 //! CREATE LATER
 // import { WavyWaves } from "./WavyWaves";
 
