@@ -1,17 +1,25 @@
 import * as React from 'react';
+import {useState} from 'react';
 import {render} from 'react-dom';
 import {motion} from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 import './styles.css';
+
+
+import Circle from '../components/circle';
+
+
+
 
 
 const Wrapper = () => {
     return(
-        <div className='example-container'>
-            <motion.div>
-                
-            </motion.div>
 
-        </div>
+        <>
+        <div>Hello</div>
+<Circle/>
+
+        </>
     )
 }
 
