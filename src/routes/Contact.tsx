@@ -8,10 +8,6 @@ import './styles.css';
 
 import Circle from '../components/circle';
 
-
-
-
-
 const Wrapper = () => {
     return(
 
